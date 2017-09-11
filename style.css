@@ -4,13 +4,16 @@
 }
 
 a {
-  color: #f9a93f !IMPORTANT;
+  color: #1d1814 !IMPORTANT;
   text-decoration: none !IMPORTANT;
+  font-weight: bold;
 }
 
 a:hover {
   transform: none;
   text-decoration: none;
+  transform: rotateX(360deg);
+  transition-duration: .8s
 }
 
 .mobile-navi {
@@ -77,6 +80,7 @@ a:hover {
 }
 
 /******** MAIN *********/
+
 .intro-img {
   background-image: url('./images/intro-img.jpg');
   background-position: center;
@@ -115,6 +119,61 @@ a:hover {
 
 }
 
+/********** Where *********/
+.where-container {
+  margin-top: 25px;
+  margin-bottom: 55px;
+  margin-left: 40px !IMPORTANT;
+  margin-right: 40px !IMPORTANT;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.place-container {
+  text-align: center;
+
+  width: 100%;
+}
+
+.place-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  border: solid 3px #fff;
+  border-radius: 50%;
+}
+
+
+
+.redding {
+  background-image: url('./images/redding.jpg');
+}
+
+.ashland {
+  background-image: url('./images/ashland.jpg');
+}
+
+.sd {
+  background-image: url('./images/sd.png');
+}
+
+.place-title {
+  margin-top: 15px;
+  font-size: 30px;
+  color: #fff !IMPORTANT;
+}
+
+.place-info {
+ margin: 25px 0px;
+ font-size: 20px;
+}
+
+
+
+/********** Why *********/
 
 .name-field, .question-field {
   margin-top: 15px;
@@ -143,7 +202,6 @@ a:hover {
   border-radius: 5px;
   margin-top: 30px;
   width: 75px;
-  
 }
 
 
