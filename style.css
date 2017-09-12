@@ -123,16 +123,17 @@ a:hover {
 .where-container {
   margin-top: 25px;
   margin-bottom: 55px;
-  margin-left: 40px !IMPORTANT;
-  margin-right: 40px !IMPORTANT;
+  margin-left: 5% !IMPORTANT;
+  margin-right: 5% !IMPORTANT;
   padding: 15px;
-  border-radius: 5px;
 }
 
 .place-container {
   text-align: center;
-
+  display: inline-block;
+  height: 500px;
   width: 100%;
+  margin: 25px 15px;
 }
 
 .place-img {
@@ -163,11 +164,9 @@ a:hover {
 .place-title {
   margin-top: 15px;
   font-size: 30px;
-  color: #fff !IMPORTANT;
 }
 
 .place-info {
- margin: 25px 0px;
  font-size: 20px;
 }
 
@@ -215,6 +214,10 @@ a:hover {
   .navi-btns {
     left: 0px;
     top: 120px;
+  }
+
+  .place-container {
+    width: 100%;
   }
 }
 
@@ -296,10 +299,6 @@ a:hover {
 
   .about-title {
     font-size: 25px;
-  }
-
-  .place-img {
-    margin-left: -15px !IMPORTANT;
   }
 
 }
