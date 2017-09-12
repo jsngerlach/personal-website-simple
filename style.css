@@ -257,6 +257,7 @@ a:hover {
     height: 400px;
     width: 100%;
     background-color: rgba(249,169,63, 0.5) ;
+
   }
 
   .mobile-menu-btn {
@@ -268,33 +269,35 @@ a:hover {
     text-align: center;
     padding-top: 13px;
     position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
   }
 
   .mobile-who-pos {
-    top: 100px;
-    left: 10%;
+    top: 0px;
+    left: 150px;
   }
 
   .mobile-what-pos {
-    top: 100px;
-    left: 35%;
+    top: 25px;
+    left: 65px;
   }
 
   .mobile-where-pos {
-    top: 100px;
-    left: 60%;
+    top: 102px;
+    left: 8px;
   }
   .mobile-when-pos {
-    top: 235px;
-    left: 10%;
+    top: 200px;
+    left: 8px;
   }
   .mobile-why-pos {
-    top: 235px;
-    left: 35%;
+    top: 275px;
+    left: 65px;
   }
   .mobile-how-pos {
-    top: 235px;
-    left: 60%;
+    top: 300px;
+    left: 150px;
   }
 
   .about-title {
