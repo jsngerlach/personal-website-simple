@@ -16,7 +16,7 @@ a:hover {
   transition-duration: .8s
 }
 
-.mobile-navi {
+.mobile-navi, .mobile-menu-icon, #mobile-menu {
   display: none;
 }
 
@@ -239,6 +239,7 @@ a:hover {
     border-radius: 50%;
   }
   .mobile-menu-icon {
+    display: block;
     background-image: url('./images/mobile-menu-icon.png');
     background-position: center;
     background-size: cover;
@@ -249,8 +250,56 @@ a:hover {
     right: 27px;
   }
 
+  #mobile-menu {
+    height: 400px;
+    width: 100%;
+    background-color: rgba(249,169,63, 0.5) ;
+  }
+
+  .mobile-menu-btn {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border: solid 3px #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 13px;
+    position: absolute;
+  }
+
+  .mobile-who-pos {
+    top: 100px;
+    left: 10%;
+  }
+
+  .mobile-what-pos {
+    top: 100px;
+    left: 35%;
+  }
+
+  .mobile-where-pos {
+    top: 100px;
+    left: 60%;
+  }
+  .mobile-when-pos {
+    top: 235px;
+    left: 10%;
+  }
+  .mobile-why-pos {
+    top: 235px;
+    left: 35%;
+  }
+  .mobile-how-pos {
+    top: 235px;
+    left: 60%;
+  }
+
   .about-title {
     font-size: 25px;
+  }
+
+  .place-img {
+    margin-left: -15px !IMPORTANT;
   }
 
 }

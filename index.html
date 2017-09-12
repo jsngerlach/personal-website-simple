@@ -17,8 +17,9 @@
     <div class="body">
 
       <header>
-        <div class="mobile-navi"></div>
-        <div class="mobile-menu-icon"></div>
+
+        <div class="mobile-navi" onclick="menuToggle()"></div>
+        <div class="mobile-menu-icon" onclick="menuToggle()"></div>
         <div class="navi">
           <div class="title">
             <div><span>Jason</span><span class="last-name">Gerlach</span></div>
@@ -29,13 +30,22 @@
             <div class="navi-btn"><a class="header-a" href="#where">Where</a></div>
             <div class="navi-btn"><a class="header-a" href="#when">When</a></div>
             <div class="navi-btn"><a class="header-a" href="#why">Why</a></div>
-            <div class="navi-btn"><a class="header-a" href="#how">How</a></div>
+            <div class="navi-btn">How</a></div>
           </div>
         </div>
       </header>
 
       <main>
-        <div class="intro-img"></div>
+        <div class="intro-img">
+          <div id="mobile-menu">
+            <a href="#who"><div class="mobile-menu-btn mobile-who-pos">Who</div></a>
+            <a href="#what"><div class="mobile-menu-btn mobile-what-pos">What</div></a>
+            <a href="#where"><div class="mobile-menu-btn mobile-where-pos">Where</div></a>
+            <a href="#when"><div class="mobile-menu-btn mobile-when-pos">When</div></a>
+            <a href="#why"><div class="mobile-menu-btn mobile-why-pos">Why</div></a>
+            <a href="#how"><div class="mobile-menu-btn mobile-how-pos">How</div></a>
+          </div>
+        </div>
         <div class="about-section-1" id="who">
           <div class="about-title"> Who am I?</div>
 
@@ -54,12 +64,12 @@
             <div class="place-container col-xs-12 col-sm-12 col-md-4">
               <div class="place-img ashland"><a href=""></a></div>
               <div class="place-title"><a href="https://en.wikipedia.org/wiki/Ashland,_Oregon" target="_blank">Ashland Oregon</a></div>
-              <div class="place-info">For a short time I lived in a small town called <a href="https://en.wikipedia.org/wiki/Ashland,_Oregon" target="_blank">Ashland Oregon</a>. Even though I lived in here for only one year I made lots of new friends and went on many adventreous. I would snowboard the local mountain daily. </div>
+              <div class="place-info">For a short time I lived in a small town called <a href="https://en.wikipedia.org/wiki/Ashland,_Oregon" target="_blank">Ashland Oregon</a>. Even though I lived in here for only one year I made lots of new friends and went on many adventures. I would snowboard the local mountain daily. </div>
             </div>
             <div class="place-container col-xs-12 col-sm-12 col-md-4">
               <div class="place-img sd"><a href=""></a></div>
               <div class="place-title"><a href="https://en.wikipedia.org/wiki/San_Diego" target="_blank">San Diego California</a></div>
-              <div class="place-info">I currently live in <a href="https://en.wikipedia.org/wiki/San_Diego" target="_blank">San Diego California</a> and I love it. I enjoy cruising the beach on my and ththe local breweries. They are a lot more events like concerts and comedy events to do living a big city and I intend to go to as many as I can.</div>
+              <div class="place-info">I currently live in <a href="https://en.wikipedia.org/wiki/San_Diego" target="_blank">San Diego California</a> and I love it. I enjoy cruising the beach on my bike and trying the local breweries. There are a lot more events to go to like concerts and comedy shows which I am fond of.</div>
             </div>
           </div>
         </div>
@@ -91,5 +101,8 @@
       </footer>
 
     </div>
+
+    <!-- script -->
+    <script src="index.js"></script>
   </body>
 </html>
