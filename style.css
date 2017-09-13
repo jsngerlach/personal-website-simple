@@ -203,6 +203,23 @@ a:hover {
   width: 75px;
 }
 
+/********** How **********/
+
+.about-section-3.how {
+  min-height: 120px;
+}
+
+
+.link-icon {
+
+}
+
+
+.contact-link {
+  font-size: 32px;
+  text-align: center;
+}
+
 
 /********** MEDIA QUERIES **********/
 /*Bootstrap xl 1200*/
