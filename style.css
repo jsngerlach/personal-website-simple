@@ -119,12 +119,34 @@ a:hover {
 
 }
 
+/********** Who *********/
+
+.avatar{
+  margin-top: 25px;
+  margin-left: calc(50% - 125px);
+  height: 250px;
+  width: 250px;
+  border: solid 3px #1d1814;
+  border-radius: 50%;
+  background-image: url('./images/avatar.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.who-info {
+  color: #1d1814;
+  text-align: center;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+
 /********** Where *********/
+
 .where-container {
   margin-top: 25px;
   margin-bottom: 55px;
-  margin-left: 5% !IMPORTANT;
-  margin-right: 5% !IMPORTANT;
   padding: 15px;
 }
 
@@ -133,7 +155,7 @@ a:hover {
   display: inline-block;
   height: 500px;
   width: 100%;
-  margin: 25px 15px;
+  margin: 25px 0;
 }
 
 .place-img {
@@ -174,33 +196,36 @@ a:hover {
 
 /********** Why *********/
 
-.name-field, .question-field {
-  margin-top: 15px;
-  padding: 5px;
-  border: solid 1px #000000;
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
+.code-btn {
+  margin-top: 35px;
+  margin-left: calc(50% - 100px);
+  height: 200px;
+  width: 200px;
+  border: solid 3px #1d1814;
+  border-radius: 50%;
+  background-color: #bfbdbc;
 }
 
-.question-field {
-  resize: none;
-  height: 70px;
+.code-btn:hover {
+  transform: scale(1.3);
+  background-color: #868382;
 }
 
-.btn-container {
-  margin: 0 auto;
-  width: 75px;
+.code-btn-img {
+  height: 100px;
+  width: 100px;
+  margin-left: calc(50% - 50px);
+  background-image: url('./images/html-tag-icon.png');
+  background-position: center;
+  background-size: cover;
 }
 
-.question-submit {
-  cursor: pointer;
-  background-color: #ffffff;
-  color: #f9a93f;
-  border: solid 1px #f9a93f;
-  border-radius: 5px;
-  margin-top: 30px;
-  width: 75px;
+.btn-text {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  margin-left: calc(50% - 50px);
+
 }
 
 /********** How **********/
@@ -208,12 +233,6 @@ a:hover {
 .about-section-3.how {
   min-height: 120px;
 }
-
-
-.link-icon {
-
-}
-
 
 .contact-link {
   font-size: 32px;
@@ -321,6 +340,10 @@ a:hover {
     font-size: 25px;
   }
 
+  /******** how *********/
+  .contact-link {
+    font-size: 20px;
+  }
 }
 
 /*Bootstrap sm*/
