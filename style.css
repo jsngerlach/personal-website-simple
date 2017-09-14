@@ -141,6 +141,48 @@ a:hover {
   margin: 15px 0;
 }
 
+/********** What *********/
+
+.what-item {
+text-align: center;
+margin: 25px 0;
+}
+
+.what-icon {
+  height: 150px;
+  width:150px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: calc(50% - 75px);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.code-icon {
+  background-image: url('./images/code-icon.jpg');
+}
+
+.mtn-icon {
+  background-image: url('./images/mtn-icon.png');
+}
+
+.weight-icon {
+  background-image: url('./images/weight-icon.png');
+}
+
+.bike-icon {
+  background-image: url('./images/bike-icon.png');
+}
+
+.gamer-icon {
+  background-image: url('./images/gamer-icon.png');
+}
+
+.what-info {
+text-align: center;
+margin: 15px 0;
+}
 
 /********** Where *********/
 
