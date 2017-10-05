@@ -207,8 +207,6 @@ font-size: 18px;
   border-radius: 50%;
 }
 
-
-
 .redding {
   background-image: url('./images/redding.jpg');
 }
@@ -241,17 +239,34 @@ font-size: 18px;
 
 }
 
-.timeline-start, .timeline-point, .timeline-end {
+.timeline-start, .timeline-point {
  height: 5px;
  width: 53px;
  background-color: #fff;
- margin-left: calc(50% - 26.5px);
+ position: relative;
+ left: calc(50% - 26.5px);
 }
 
-.timeline-point {
-
+.timeline-info {
+  margin-left: 70px;
+  width: 100px;
 }
 
+.timeline-point.point-1 {
+  top: 41%;
+}
+
+.timeline-point.point-2 {
+  top: 64%;
+}
+
+.timeline-point.point-3 {
+ top: 75%;
+}
+
+.timeline-point.point-4 {
+  top: 91%;
+}
 
 
 
