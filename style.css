@@ -1,5 +1,5 @@
-.body {
-  font-family: 'Josefin Sans', sans-serif;
+body {
+  font-family: 'Josefin Sans', sans-serif !IMPORTANT;
   min-width: 320px;
 }
 
@@ -32,7 +32,7 @@ a:hover {
   background-color: #1d1814;
   width: 100%;
   height: 120px;
-  font-family: 'Josefin Sans', sans-serif;
+
   position: absolute;
   top: 0;
 }
@@ -67,10 +67,6 @@ a:hover {
 
 }
 
-.navi-btn.active {
-
-}
-
 .header-a {
   color: #ffffff !IMPORTANT;
 }
@@ -86,9 +82,8 @@ a:hover {
   background-position: center;
   background-size: 100% 400px;
   background-repeat: no-repeat;
-  height: 400px;
   width: 100%;
-  border-radius: 0px 0px 5px 5px;
+  height: 400px;
 }
 
 .about-title {
@@ -104,7 +99,7 @@ a:hover {
 }
 
 .about-section-1 {
-
+  color: #1d1814;
 }
 
 .about-section-2 {
@@ -236,6 +231,28 @@ font-size: 18px;
 }
 
 /********** When *********/
+.timeline {
+  height: 500px;
+  width: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: calc(50% - 2.5px);
+  background-color: #fff;
+
+}
+
+.timeline-start, .timeline-point, .timeline-end {
+ height: 5px;
+ width: 53px;
+ background-color: #fff;
+ margin-left: calc(50% - 26.5px);
+}
+
+.timeline-point {
+
+}
+
+
 
 
 /********** Why *********/
